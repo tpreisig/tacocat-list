@@ -10,7 +10,7 @@ Fully functional and responsive task list built and written with TypeScript. The
 
 1. Clone the repository and navigate to it:
    ```bash
-   git clone https://github.com/tpreisig/taskforec-list.git
+   git clone https://github.com/tpreisig/taskforce-list.git
    cd taskforce-list
    ```
 2. Install the dependencies:
