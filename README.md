@@ -8,17 +8,19 @@ Fully functional and responsive task list built and written with TypeScript. The
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository and navigate to it:
    ```bash
-   git clone https://github.com/tpreisig/tasks.git
+   git clone https://github.com/tpreisig/taskforec-list.git
+   cd taskforce-list
    ```
-2. Navigate to the project directory:
+2. Install the dependencies:
    ```bash
-   cd tasks
+   npm install
    ```
-3. Use a live server:
+3. Compile the TypeScript code and launch it:
    ```bash
-   ex. VSCode liver server extension.
+   npm run build
+   npm run dev
    ````
 
 ## License
@@ -28,7 +30,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Visuals
 
-![Screenshot](assets/mimetype.png)
+![Screenshot](assets/fatf.png)
 
 ## Contact
 
