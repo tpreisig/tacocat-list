@@ -49,13 +49,14 @@ section {
   border-radius: 10px;
   min-width: 48px;
   min-height: 48px;
-  border: 2px solid whitesmoke;
+  border: 1px solid whitesmoke;
 }
 
 .button:hover {
   cursor: pointer;
-  border-color: rgb(255, 134, 251);
-  color: rgb(249, 131, 245);
+  border-color: rgb(247, 4, 178);
+  color: rgb(175, 1, 126);
+  background: rgba(255, 255, 255, 0.1);
   text-shadow: none;
 }
 
@@ -77,19 +78,21 @@ section {
   border: 2px solid whitesmoke;
   border-radius: 10px;
   padding: 0.5em;
+  outline: none;
 }
 
 .newItemEntry-button {
   background-color: transparent;
   color: whitesmoke;
-  border: 3px dotted whitesmoke;
+  border: 1px dotted whitesmoke;
   padding: 0.75em;
 }
 
 .newItemEntry-button:hover,
 .newItemEntry-button:focus {
-  color: aqua;
-  border-color: aqua;
+  color: rgb(2, 184, 184);
+  border-color: aquamarine;
+
 }
 
 .listContainer {
@@ -149,9 +152,9 @@ hr {
 
 .item > button:hover,
 .item > button:focus {
-  color: rgb(157, 1, 1);
-  border-color: rgb(157, 1, 1);
-  background: rgba(157, 1, 1, 0.1);
+  background: rgba(0, 0, 0, 0.1);
+  border-color: rgb(247, 4, 178);
+  color: rgb(175, 1, 126);
 }
 
 @media (max-width: 768px) {
